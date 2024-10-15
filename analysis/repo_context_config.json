@@ -1,0 +1,14 @@
+{
+    "base_path": "..",
+    "output_dir": "repo_context",
+    "outputs": [
+        {
+            "output_file": "full_context.txt",
+            "target_dirs": ["."],
+            "exclude_subdirs": false,
+            "excluded_dirs": ["node_modules", "coverage", "uploads", ".git", "analysis", "db_report", "aws"],
+            "excluded_files": [".DS_Store", "package-lock.json", "logo.svg"],
+            "excluded_extensions": [".pyc"]
+        }
+    ]
+}

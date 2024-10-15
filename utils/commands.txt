@@ -1,0 +1,5 @@
+# Print the repository structure using a Python script
+python analysis/print_repo.py
+
+# Generate a repository outline and save it to structure.txt
+tree -a -I '.git|__pycache__|myenv|node_modules|uploads|.DS_Store' > analysis/repo_context/structure.txt
